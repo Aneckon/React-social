@@ -1,0 +1,93 @@
+body{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.header{
+  background: #283747;
+  padding: 10px 0;
+  position: fixed;
+  max-width: 100%;
+  width: 100%;
+  top: 0;
+  z-index: 11;
+}
+.header__menu{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__item{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__item.right{
+  max-width: 350px;
+  width: 100%;
+}
+.header__logo{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  max-width: 100px;
+  width: 100%;
+}
+.header__logo img{
+  max-width: 35px;
+  width: 100%;
+}
+.header__input{
+  position: relative;
+}
+.header__input input{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  width: 200px;
+  background: rgba(255, 255, 255, 0.4);
+  padding: 8px;
+  border-radius: 5px; 
+  padding-right: 30px;
+  border: none;
+  color: #fff;
+}
+.header__input input::placeholder{
+  color: #fff;
+}
+.header__input input:focus-visible{
+  outline: -webkit-focus-ring-color auto 0px;
+}
+.header__input img{
+  position: absolute;
+  max-width: 15px;
+  right: 10px;
+  top: 8px;
+  width: 100%;
+  cursor: pointer;
+}
+.header__item.left{
+  max-width: 170px;
+  width: 100%;
+}
+.header__reg{
+  max-width: 80px;
+  width: 100%;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  border-radius: 5px;
+}
+.header__reg a{
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #283747;
+}
+.header__reg.reg{
+  background: #2874A6;
+}
+.header__reg.reg a{
+  color: #fff;
+}

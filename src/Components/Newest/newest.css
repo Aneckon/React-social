@@ -1,0 +1,16 @@
+body{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.newest{
+  margin-top: 80px;
+}
+.newest__header{
+  padding-bottom: 20px;
+}
+.newest__header h1{
+  padding: 0;
+  margin: 0;
+  font-size: 35px;
+  font-weight: bold;
+  color: #283747;
+}

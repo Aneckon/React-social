@@ -1,0 +1,19 @@
+.sidebarLatestNews{
+  position: absolute;
+  right: 0;
+  top: 82px;
+  height: 100%;
+  max-width: 250px;
+  width: 100%;
+}
+.sidebarLatestNews__header{
+  margin-bottom: 25px;
+}
+h2{
+  margin: 0;
+  padding: 0;
+}
+.sidebarLatestNews__header h2{
+  font-size: 28px;
+  color: #283747;
+}
